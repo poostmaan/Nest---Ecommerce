@@ -1,0 +1,15 @@
+Los controladores son los encargados de recibir los request de nuestra aplicación.
+
+Estas request son las peticiones que llegan a nuestra aplicación desde un cliente web, móvil, etc, que vienen a través del protocolo HTTP.
+
+Entre sus funciones están el de validar los request, que sus permisos y datos sean los correctos, y según el resultado de esa validación permitir su acceso a la capa de servicios para poder obtener los datos.
+
+Al ser una petición que viaja a través del protocolo HTTP va a utilizar los verbos:
+- GET : Obtener recursos
+- PUT : Actualizar recursos
+- POST : Crear recursos
+- DELETE : Eliminar recursos
+
+Los controladores se definen con una clase acompañada de un decorador, quien va a indicar cual será el comportamiento de dicho decorador.
+
+Los decoradores a usar son:

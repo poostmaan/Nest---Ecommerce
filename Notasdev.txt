@@ -1,0 +1,34 @@
+Desarrollaremos un e-commerce con NestJs en el backend
+
+Creando algunas entidades tales como
+
+-Usuarios
+-Categorias
+-Marcas
+-Ordenes
+-Clientes
+-Productos
+
+Vamos a generar una  REST API sobre todas las entidades necesarias para un e-commerce
+
+
+Los controladores manejan los request hacia nuestra rest API
+Son solicitudes que se envian desde cualquier cliente mediante HTTP
+
+Decoradores --- Como una clase debera comportarse entorno al framework
+
+
+Hay que definir las rutas no dinamicas antes de las que si lo son
+
+Principio de una sola responsabilidad
+
+PUT es para hacer una actualización completa y PATCH es para una actualización parcial(por partes) .
+
+Validaciones en tiempo de ejecucion
+Manejar mensajes de error dinamicamente
+Primero revisar los errores y sino hay entonces voy a retornar los resultados
+
+Tecnica error fields, de una vez cancelar el proceso y no continuar con la ejecucion
+
+BASE DE DATOS DOCUMENTALES 
+BASE DE DATOS TRANSACCIONALES
